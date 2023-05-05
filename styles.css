@@ -1,0 +1,97 @@
+.page-h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .h-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  #h-icon {
+    margin-right: 10px;
+  }
+  
+  .h-h h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .h-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .h-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .green-button {
+    color: #000000;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  
+  .green-button button {
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .modal-form-btns button {
+    border: 1px solid lightgray;
+    color: #999;
+    font-size: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .settings .btn-secondary {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+  }
+  
+  .settings .dropdown-menu {
+    margin-top: 10px;
+  }
+  #logout {
+    color: red;
+  }
+  div.post {
+    background: #ffffff;
+    margin-top: 40px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+div.post img {
+    width: 100%;
+}
+div.post .post-header div:first-child {
+    display:inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child {
+    display:inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+}
+div.post h2, div.post p {
+    padding: 10px;
+    margin: 0;
+    
+}
+div.container {
+    width: 600px;
+    margin:auto;
+}
